@@ -1,6 +1,6 @@
 {
   "name": "fm-exec",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Helper to spawn external applications",
   "main": "lib/index.js",
   "scripts": {
