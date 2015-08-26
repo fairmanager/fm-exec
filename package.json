@@ -29,5 +29,8 @@
     "jscs": "2.1.0",
     "mocha": "2.2.5",
     "should": "7.0.4"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34"
   }
 }
