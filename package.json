@@ -31,7 +31,6 @@
     "should": "7.0.4"
   },
   "dependencies": {
-    "bluebird": "^2.9.34",
-    "newerror": "^1.0.0"
+    "bluebird": "^2.9.34"
   }
 }
