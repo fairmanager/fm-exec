@@ -1,5 +1,6 @@
 fm-exec
 =======
+![](https://travis-ci.org/hartwig-at/fm-exec.svg?branch=master)
 
 What?
 -----
