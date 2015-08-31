@@ -7,9 +7,10 @@ What?
 -----
 Helper to spawn external applications.
 
-- uses `child_process.spawn()` be default
+- uses `child_process.spawn()` by default (using the shell is also possible, with `exec.shell`) 
 - uses promises
 - allows you to use the same signature for `spawn` and `exec` calls
+- conveniently buffers process output, if desired
 
 How?
 ----
