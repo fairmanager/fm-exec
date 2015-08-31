@@ -1,6 +1,7 @@
 fm-exec
 =======
 [![](https://travis-ci.org/hartwig-at/fm-exec.svg?branch=master)](https://travis-ci.org/hartwig-at/fm-exec)
+[![Coverage Status](https://coveralls.io/repos/hartwig-at/fm-exec/badge.svg?branch=master&service=github)](https://coveralls.io/github/hartwig-at/fm-exec?branch=master)
 
 What?
 -----
