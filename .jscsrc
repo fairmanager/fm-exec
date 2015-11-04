@@ -1,5 +1,4 @@
 {
-	"disallowAnonymousFunctions": true,
 	"disallowEmptyBlocks": true,
 	"disallowKeywordsOnNewLine": [
 		"catch",
@@ -39,6 +38,8 @@
 	"requireCamelCaseOrUpperCaseIdentifiers": true,
 	"requireCapitalizedComments": {
 		"allExcept": [
+			"globals",
+			"jshint",
 			"noinspection"
 		]
 	},
@@ -83,8 +84,7 @@
 		"void",
 		"with",
 		"return",
-		"typeof",
-		"function"
+		"typeof"
 	],
 	"requireSpaceAfterLineComment": {
 		"allExcept": [

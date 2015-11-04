@@ -1,6 +1,6 @@
 {
   "name": "fm-exec",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helper to spawn external applications",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hartwig-at/fm-exec.git"
+    "url": "git://github.com/fairmanager/fm-exec.git"
   },
   "keywords": [
     "exec",
@@ -18,9 +18,9 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hartwig-at/fm-exec/issues"
+    "url": "https://github.com/fairmanager/fm-exec/issues"
   },
-  "homepage": "https://github.com/hartwig-at/fm-exec",
+  "homepage": "https://github.com/fairmanager/fm-exec",
   "devDependencies": {
     "coveralls": "^2.11.4",
     "grunt": "0.4.5",
