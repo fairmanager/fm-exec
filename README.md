@@ -1,8 +1,8 @@
 fm-exec
 =======
-[![](https://travis-ci.org/fairmanager/fm-exec.svg?branch=master)](https://travis-ci.org/hartwig-at/fm-exec)
-[![Coverage Status](https://coveralls.io/repos/fairmanager/fm-exec/badge.svg?branch=master&service=github)](https://coveralls.io/github/hartwig-at/fm-exec?branch=master)
-[![Code Climate](https://codeclimate.com/github/fairmanager/fm-exec/badges/gpa.svg)](https://codeclimate.com/github/hartwig-at/fm-exec)
+[![](https://travis-ci.org/fairmanager/fm-exec.svg?branch=master)](https://travis-ci.org/fairmanager/fm-exec)
+[![Coverage Status](https://coveralls.io/repos/fairmanager/fm-exec/badge.svg?branch=master&service=github)](https://coveralls.io/github/fairmanager/fm-exec?branch=master)
+[![Code Climate](https://codeclimate.com/github/fairmanager/fm-exec/badges/gpa.svg)](https://codeclimate.com/github/fairmanager/fm-exec)
 ![GitHub license](https://img.shields.io/github/license/fairmanager/fm-exec.svg)
 
 What?
