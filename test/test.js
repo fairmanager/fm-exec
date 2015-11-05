@@ -11,6 +11,12 @@ describe( "fm-exec", function() {
 				.catch( done );
 		} );
 
+		it( "should execute something with parameters", function( done ) {
+			exec( "echo", [ "something" ] )
+				.then( done )
+				.catch( done );
+		} );
+
 		it( "should fail for invalid binaries", function( done ) {
 			exec( "SHOULD_NOT_EXIST" )
 				.then( function() {
@@ -63,8 +69,8 @@ describe( "fm-exec", function() {
 
 		it( "should not fail for invalid binaries, when ignoreFailure is set", function( done ) {
 			exec.shell( "SHOULD_NOT_EXIST", [], {
-				ignoreFailure : true
-			} )
+					ignoreFailure : true
+				} )
 				.then( function( result ) {
 					result.should.be.an.instanceOf( Error );
 					done();
@@ -74,8 +80,8 @@ describe( "fm-exec", function() {
 
 		it( "should buffer output if instructed", function( done ) {
 			exec.shell( "echo", [ "lol" ], {
-				buffer : true
-			} )
+					buffer : true
+				} )
 				.then( function( result ) {
 					result.should.have.type( "string" ).and.equal( "lol" );
 					done();
