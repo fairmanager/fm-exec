@@ -1,4 +1,5 @@
 {
+	"maxErrors": null,
 	"disallowEmptyBlocks": true,
 	"disallowKeywordsOnNewLine": [
 		"catch",
@@ -112,7 +113,8 @@
 		"all": true
 	},
 	"safeContextKeyword": [
-		"self"
+		"self",
+		"vm"
 	],
 	"validateLineBreaks": "LF",
 	"validateParameterSeparator": ", ",
